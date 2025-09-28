@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Overview - ZeroDragon</title>
+</head>
+
+<body>
+  <nav class="sidebar" >
+    <h1>ZeroDragon</h1>
+    <div>
+      <div class="menu-title">Pages</div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-title">Dashboard</div>
+      <ul>
+        <li><a href="overview.html" class="active">Overview</a></li>
+        <li><a href="add.html">Add Project</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <header class="appbar" >
+      <div class="app-left">
+        <button class="hamburger" aria-label="Toggle sidebar">☰</button>
+        <div class="brand">ZeroDragon</div>
+      </div>
+      <div class="app-right">
+        <span class="icon"><img src="../SVG/bell.svg" alt=""><span class="badge">3</span></span>
+        <span class="icon"><img src="../SVG/message.svg" alt=""></span>
+        <div class="user">
+          <img src="../images/user_placeholder.png" alt="User" style="width:36px;height:36px;border-radius:8px">
+          <p class="small">Bassam</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 >Projects Overview</h1>
+      <section class="card">
+        <table id="items-table" >
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="appfoot">© ZeroDragon</footer>
+  </div>
+  <script src="../js/main.js"></script>
+  <script src="../js/overview.js"></script>
+</body>
+
+</html>

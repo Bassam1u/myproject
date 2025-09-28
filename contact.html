@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<title>Contact - ZeroDragon</title>
+</head>
+<body>
+<nav class="sidebar" >
+  <h1>ZeroDragon</h1>
+  <div>
+    <div class="menu-title">Pages</div>
+    <ul>
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <li><a href="dashboard/overview.html">Dashboard</a></li>
+  </div>
+</nav>
+<div class="container">
+  <header class="appbar" role="banner">
+    <div class="app-left">
+      <button class="hamburger" aria-label="Toggle sidebar">☰</button>
+      <div class="brand">ZeroDragon</div>
+    </div>
+  <div class="app-right">
+    <span class="icon"><img src="SVG/bell.svg" alt="bell"><span class="badge">3</span></span>
+    <span class="icon"><img src="SVG/message.svg" alt="message"></span>
+        <div class="user">
+          <img src="images/user_placeholder.png" alt="User" style="width:36px;height:36px;border-radius:8px">
+          <p class="small">Bassam</p>
+        </div>  </div>
+  </header>
+<main>
+  <h1 >Contact</h1>
+  <section class="card">
+    <form id="contact-form">
+      <div class="form-row"><label>Name</label><input name="name" required></div>
+      <div class="form-row"><label>Email</label><input name="email" type="email" required></div>
+      <div class="form-row"><label>Message</label><textarea name="message" rows="6" required></textarea></div>
+      <div><button class="btn" type="submit">Send Message</button></div>
+    </form>
+  </section>
+</main>
+<footer class="appfoot">© ZeroDragon</footer>
+</div>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

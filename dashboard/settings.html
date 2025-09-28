@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Settings - ZeroDragon</title>
+</head>
+
+<body>
+  <nav class="sidebar" >
+    <h1>ZeroDragon</h1>
+    <div>
+      <div class="menu-title">Pages</div>
+      <ul>
+        <li><a href="../index.html" >Home</a></li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-title">Dashboard</div>
+      <ul>
+        <li><a href="overview.html">Overview</a></li>
+        <li><a href="add.html">Add Project</a></li>
+        <li><a href="settings.html" class="active">Settings</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <header class="appbar" >
+      <div class="app-left">
+        <button class="hamburger" >☰</button>
+        <div class="brand">ZeroDragon</div>
+      </div>
+      <div class="app-right">
+        <span class="icon"><img src="../SVG/bell.svg" alt="bell"><span class="badge">3</span></span>
+        <span class="icon"><img src="../SVG/message.svg" alt="message"></span>
+        <div class="user">
+          <img src="../images/user_placeholder.png" alt="User" style="width:36px;height:36px;border-radius:8px">
+          <p class="small">Bassam</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 >Settings</h1>
+      <section class="card">
+        <div class="form-row"><label>Light Theme</label><input id="theme-toggle" type="checkbox"></div>
+        <div class="form-row"><label>Primary Accent</label><input id="primary-color" type="color" value="#7c5cff"></div>
+      </section>
+    </main>
+    <footer class="appfoot">© ZeroDragon</footer>
+  </div>
+  <script src="../js/main.js"></script>
+  <script src="../js/settings.js"></script>
+</body>
+
+</html>

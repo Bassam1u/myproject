@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ZeroDragon - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="sidebar">
+    <h1>ZeroDragon</h1>
+    <div class="menu-title">Pages</div>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard/overview.html">Dashboard</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <header class="appbar" >
+      <div class="app-left">
+        <button class="hamburger">☰</button>
+        <div class="brand">ZeroDragon</div>
+      </div>
+      <div class="app-right">
+        <span class="icon"><img src="SVG/bell.svg" alt="bell"><span class="badge">3</span></span>
+        <span class="icon"><img src="SVG/message.svg" alt="message"></span>
+        <div class="user">
+          <img src="images/user_placeholder.png" alt="User" style="width:36px;height:36px;border-radius:8px">
+          <p class="small">Bassam</p>
+        </div>
+      </div>
+    </header>
+    <main >
+      <section class="hero">
+        <div class="left">
+          <div class="card hero-card">
+            <h1 id="hero-heading">ZeroDragon — Secure & Scalable Software</h1>
+            <p class="lead">We build modern web and mobile applications and provide enterprise-grade cybersecurity
+              services: penetration testing, vulnerability management and incident response.</p>
+            <div class="cta"><button class="btn" onclick="location.href='services.html'">Our Services</button>
+              <button class="btn" onclick="location.href='contact.html'">Contact Sales</button></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="slider" >
+            <div class="slider-track" id="slider-track">
+              <img src="images/home/slide1.jpg" >
+              <img src="images/home/slide2.jpg" >
+              <img src="images/home/slide3.jpg" >
+            </div>
+            <button class="arrow prev" onclick="prevSlide()" >❮</button>
+            <button class="arrow next" onclick="nextSlide()" >❯</button>
+        </div>
+      </section>
+      <section style="margin-top:18px">
+        <article class="card">
+          <h2>About ZeroDragon</h2>
+          <p class="lead">ZeroDragon is a software company focused on delivering secure, reliable solutions — from
+            product engineering to proactive security services for enterprises.</p>
+        </article>
+      </section>
+    </main>
+    <footer class="appfoot" >© 2025 ZeroDragon — All rights reserved</footer>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
